@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: cadetblue;
+    font-weight: bolder;
+    text-transform: capitalize
+}
+
+.clear-div {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.brdr {
+    border-color: rgb(15, 153, 77);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.common-hr {
+    color: chartreuse;
+
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* hader section */
+.header-container {
+    width: 100%;
+    background-color: rgba(147, 151, 151, 0.699);
+    margin: 0 auto;
+    float: left;
+    padding: 10px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border: white 2px solid;
+    border-radius: 50%;
+    padding: 10px;
+    float: left;
+}
+
+.bio {
+    color: black;
+    float: left;
+    padding: 20px;
+    margin-left: 10px;
+
+
+}
+
+.contact {
+    color: black;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #ddd;
+    text-decaration: underline;
+
+}
+
+/* -----------personal section */
+#personal-section {
+    margin-top: 20px;
+
+}
+
+.content {
+    padding: 20px;
+
+}
+
+.left-div {
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+}
+
+.right-div {
+    width: 70%;
+    float: left;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+/* -----------education  */
+.edu-left {
+    float: left;
+    width: 45%;
+}
+
+.edu-right {
+    float: left;
+    width: 45%;
+}
+
+/* -----skill section */
+.right-div ul li {
+    list-style: lower-roman;
+    color: darkcyan;
+}
+
+/* -------reference */
+.ref-left {
+    float: left;
+    width: 45%;
+}
+
+.ref-right {
+    float: left;
+    width: 45%;
+}
+
+/* ----footer section */
+.footer-section {
+    background-color: rgb(107, 102, 102);
+    padding: 8%;
+}
+
+.footer-section a {
+    text-align: left;
+    color: #ddd;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.footer-section a:hover {
+    color: #aaa2a2;
+}
+
+.footer-section p {
+    float: right;
+    color: #ddd;
+    margin: auto 10px;
+    margin-right: 40px;
+
+}
+
+/* -----Responsive---- */
+@media screen and (max-width :400px) {
+    .profile-image {
+        margin-left: 20%;
+        width: 50%;
+        height: 50%;
+    }
+
+    .bio {
+        margin-left: 20%;
+    }
+
+    .contact {
+        padding-top: 8%;
+    }
+
+    .contact p {
+        text-align: center;
+        margin-top: -15%;
+        margin-left: -15%;
+
+    }
+
+    .left-div,
+    .right-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-section a {
+        margin-right: 5%;
+    }
+
+    .footer-section p {
+        margin-right: 15%;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width :715px) {
+    .profile-image {
+        margin-left: 20%;
+        width: 50%;
+        height: 50%;
+    }
+
+    .bio {
+        margin-left: 2%;
+    }
+
+    .contact {
+        padding-top: 10%;
+    }
+
+    .contact p {
+        margin-top: -15%;
+        text-align: right;
+
+    }
+
+    .left-div,
+    .right-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-section a {
+        margin-left: 1%;
+    }
+
+    .footer-section p {
+        margin-right: 1%;
+      
+    }
+}
